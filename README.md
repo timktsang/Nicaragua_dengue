@@ -6,6 +6,6 @@ The raw data cannot be publised due to IRBs requirement. Therefore, a data templ
 
 
 
-Soucre_data.zip is the zip file for the source file for all table/figure in the manuscript.
+Soucre_data_for figures.zip is the zip file for the source file for all table/figure in the manuscript.
 
-Simulation.zip is the zip file for the code for simulation and estimation using 1/2/4 serotype sampling when updating infection histroy.
+Code_for_simulation_and_analysis.zip is the zip file for the code for simulation and analysis using 1/2/4 serotype sampling when updating infection histroy.
