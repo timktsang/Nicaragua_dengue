@@ -4,8 +4,8 @@ In a project of modeling dengue transmission in a prospective pediatric cohort i
 
 The raw data cannot be publised due to IRBs requirement. Therefore, a data template is provided.
 
-Code_for_table_figure.zip is the code for all table/figure in the manuscript.
+
 
 Soucre_data.zip is the zip file for the source file for all table/figure in the manuscript.
 
-Model_ouput_data is the zip file for othe data generating from model. Simulation and estimation code using 1/2/4 serotype sampling when updating infection histroy were provided.
+Simulation.zip is the zip file for the code for simulation and estimation using 1/2/4 serotype sampling when updating infection histroy.
