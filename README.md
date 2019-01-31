@@ -6,8 +6,6 @@ The raw data cannot be made publicly available due to IRBs requirements. Interes
 
 Soucre_data.zip is a zipped folder containing summary data for generating Figures 1-4 and Supplementary Figures 1-3  in the manuscript.
 
-R_code_for_figure.zip is a zipped folder containing R code files that read in the summary data to generate the figures.
-
 Code_for_simulation_and_analysis.zip is a zipped folder containing R and C++ programs for simulating dengue infection and disease epidemics in the cohort and for conducting Bayesian inference. The three subfolders correspond to sampling 1, 2 and 4 serotypes simultaneously, with the purpose to show that sampling all 4 serotypes together yields the best estimation. Taking 4-serotype sampling as an example, the R code “dengue_main_4serotype.R” is the major file, which will read in the data and call the C++ code file “dengue_4serotype.cpp”. The surveillance data is provided in “reported_n.txt”. As the raw data cannot be made publicly available, we provide a mock version of the data in a format needed by the C++ program. This data file is called “dengue_c_data.csv”. In simulation, this file provides the population structure for the hypothetical cohort. In data analysis, this file provides all the necessary infection and disease outcomes and covariates. This file has the following columns (columns like age and gender are self-obvious and thus not explained):
 
 yinf_1 – yinf_4: infection years for serotypes 1-4. ‘-1’ indicates no infection, ‘999’ indicates unknown.
